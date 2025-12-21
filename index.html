@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasperia | Preserving Heritage</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,400&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --paper: #f9f5eb;        
+            --walnut: #4a3b32;      
+            --chinar: #a63d40;      
+            --saffron: #e9b44c;     
+            --shadow: rgba(74, 59, 50, 0.15); 
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background-color: var(--paper);
+            color: var(--walnut);
+            font-family: 'Merriweather', serif;
+            line-height: 1.6;
+            
+            background-image: 
+                linear-gradient(30deg, var(--shadow) 1px, transparent 1px),
+                linear-gradient(150deg, var(--shadow) 1px, transparent 1px);
+            background-size: 40px 40px;
+            min-height: 100vh;
+        }
+        
+        header {
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            font-weight: 700;
+            border-bottom: 2px solid var(--chinar);
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        
+        .hero-container {
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .mihrab-card {
+            background: #fff;
+            width: 100%;
+            max-width: 600px;
+            padding: 4rem 2rem 3rem;
+            text-align: center;
+            position: relative;
+            border-radius: 300px 300px 5px 5px; 
+            box-shadow: 0 20px 40px var(--shadow);
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .mihrab-card::before {
+            content: '';
+            position: absolute;
+            top: 20px; left: 20px; right: 20px; bottom: 20px;
+            border: 1px solid var(--saffron);
+            border-radius: 280px 280px 2px 2px;
+            pointer-events: none;
+            opacity: 0.6;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--walnut);
+            margin-top: 2rem;
+        }
+
+        .kashmiri-text {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            font-size: 1.4rem;
+            color: #666;
+            margin: 1.5rem 0;
+            direction: rtl;
+            line-height: 2.2;
+        }
+        
+        .btn-primary {
+            background-color: var(--chinar);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-family: 'Merriweather', serif;
+            font-size: 1rem;
+            border-radius: 50px; /* Pill shape */
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(166, 61, 64, 0.3);
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            background-color: #8a3335;
+        }
+
+        
+        .library-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            padding: 4rem 10%; 
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .tile {
+            background: white;
+            padding: 2rem;
+            border: 1px solid #e0e0e0;
+            text-align: center;
+            transition: all 0.4s ease;
+            position: relative;
+            text-decoration: none;
+            color: var(--walnut);
+            background-image: radial-gradient(#f0f0f0 1px, transparent 1px);
+            background-size: 10px 10px;
+        }
+        
+        .tile::after {
+            content: '';
+            position: absolute;
+            top: 5px; left: 5px; right: 5px; bottom: 5px;
+            border: 1px solid var(--walnut);
+            opacity: 0.2;
+            transition: opacity 0.3s;
+        }
+
+        .tile h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .tile span {
+            font-size: 0.9rem;
+            font-style: italic;
+            color: #888;
+        }
+        
+        .tile:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px var(--shadow);
+            border-color: var(--saffron);
+        }
+
+        .tile:hover::after {
+            opacity: 1;
+            border-color: var(--chinar);
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem;
+            background-color: var(--walnut);
+            color: #dcdcdc;
+            margin-top: 4rem;
+            font-size: 0.9rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Kasperia</div>
+    </header>
+
+    <main>
+        <section class="hero-container">
+            <div class="mihrab-card">
+                <h1>Preserving the Spirit of Kashmir</h1>
+                <p>An online organization to protect, promote, preserve and revitalize the Koshur ethnic and socio-cultural heritage.</p>
+                <section lang="ks" dir="rtl">
+                 <p class="kashmiri-text">
+                      کشیرِ ہنٕد جوہرٕچ رٲچھدری
+                </p>
+                </section>
+                <a href="#" class="btn-primary">Learn the Script</a>
+            </div>
+        </section>
+
+        <!-- The 4 Main Pillars -->
+        <section class="library-grid">
+            
+            <!-- Tab 1 -->
+            <a href="#language" class="tile">
+                <h3>Language & Lit</h3>
+                <span>Zubaan te Adab</span>
+            </a>
+
+            <!-- Tab 2 -->
+            <a href="#arts" class="tile">
+                <h3>Arts & Expression</h3>
+                <span>Hunar te Izhaar</span>
+            </a>
+
+            <!-- Tab 3 -->
+            <a href="#culture" class="tile">
+                <h3>Culture & Heritage</h3>
+                <span>Tehzeeb te Tamadun</span>
+            </a>
+
+            <!-- Tab 4 -->
+            <a href="#philosophy" class="tile">
+                <h3>Philosophy</h3>
+                <span>Falsafa</span>
+            </a>
+
+        </section>
+    </main>
+
+    <footer>
+        <p style="opacity: 0.5;">Est. Nov 2025 | Open Source Community Project</p>
+    </footer>
+
+</body>
+</html>
