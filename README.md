@@ -41,9 +41,9 @@ You can contribute by:
 - Submitting digitized materials
 - Translating or transcribing texts  
 - Building tools for cultural archiving  
-- Donating or volunteering to support the cause  
+- sponsoring or volunteering to support the cause  
 
-Contact: **contact@kasperia.org**
+Contact: **kasperia.org@proton.me**
 
 ---
 
