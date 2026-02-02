@@ -56,6 +56,6 @@ Contact: **kasperia.org@proton.me**
 we are stil small and growing and have a vision to expand further with out objectives as we grow,every contribution is appreciated and valued 
 FOR CONTRIBUTION,DISCUSSIONS,COMMUNITY:
 
-<img width="200" height="200" alt="DISCORD" src="https://github.com/user-attachments/assets/cb4c4968-b93a-4301-bcea-98b61857132b" href="https://discord.gg/P8nrHu3hAg"  />
+<img width="200" height="200" alt="JOIN OUR DISCORD" src="https://github.com/user-attachments/assets/26424375-6a8b-4185-9423-d2695f1187df" href="https://discord.gg/P8nrHu3hAg"/>
 
 ---
