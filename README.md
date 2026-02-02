@@ -53,7 +53,8 @@ Contact: **kasperia.org@proton.me**
 > “Kashmir breathes through its people, its language, and its silence.  
 > Kasperia listens.”
 
-we are stil small and growing and have a vision to expand further with out objectives as we grow,every contribution is appreciated and valued 
+we are stil small and growing and have a vision to expand further with out objectives as we grow,every contribution is appreciated and valued
+
 FOR CONTRIBUTION,DISCUSSIONS,COMMUNITY:
 
 <a href="https://discord.gg/P8nrHu3hAg" target="\_blank">
