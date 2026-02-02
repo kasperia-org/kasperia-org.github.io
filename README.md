@@ -1,4 +1,4 @@
-<img width="2000" height="2000" alt="1000257236" src="https://github.com/user-attachments/assets/9b5f8037-0bf0-4220-b1fb-8a532b16de02" />
+<img width="1000" height="1000" alt="1000257236" src="https://github.com/user-attachments/assets/9b5f8037-0bf0-4220-b1fb-8a532b16de02" />
 
 <h1 align="center"> KASPERIA </h1>
 
@@ -54,7 +54,8 @@ Contact: **kasperia.org@proton.me**
 > Kasperia listens.”
 
 we are stil small and growing and have a vision to expand further with out objectives as we grow,every contribution is appreciated and valued 
+FOR CONTRIBUTION,DISCUSSIONS,COMMUNITY:
 
-
+<img width="200" height="200" alt="DISCORD" src="https://github.com/user-attachments/assets/cb4c4968-b93a-4301-bcea-98b61857132b" href="https://discord.gg/P8nrHu3hAg"  />
 
 ---
