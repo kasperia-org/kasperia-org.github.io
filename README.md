@@ -1,4 +1,4 @@
-<img width="1000" height="1000" alt="1000257236" src="https://github.com/user-attachments/assets/9b5f8037-0bf0-4220-b1fb-8a532b16de02" />
+<img width="500" height="500" alt="1000257236" src="https://github.com/user-attachments/assets/9b5f8037-0bf0-4220-b1fb-8a532b16de02" />
 
 <h1 align="center"> KASPERIA </h1>
 
