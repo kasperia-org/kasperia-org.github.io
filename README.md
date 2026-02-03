@@ -27,9 +27,17 @@ We archive ethically — documenting with respect, attributing every voice, and 
 
 ---
 
-## License
-This repository and its contents are licensed under the  
-**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.  
+## Licensing
+ 
+KASPERIA
+
+This repository contains the software source code for the interface, as well as the cultural content itself. 
+
+**Software Code:** All files within the main directory and the main software infrastructure are licensed under the **GNU Affero General Public License v3.0**. See the primary [LICENSE](LICENSE) file for details.
+
+**Archival Content:** All cultural artifacts, metadata, and descriptions are licensed under a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**. See the [Content License](ContentLicense) file for details.
+
+**Trademark Policy:** Use of the kasperia name and logo is governed by our [Trademark Policy](TRADEMARKPOLICY).
 
 You are free to share and adapt this material for non-commercial use, with attribution to **Kasperia.org**.
 
