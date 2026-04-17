@@ -47,37 +47,54 @@
         .table-container {
             width: 100%;
             max-width: 900px;
-            overflow-x: auto; /* Ensures mobile readability */
+            overflow-x: auto;
         }
 
+        
         table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 1.2rem;
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+            border-spacing: 0;
+}
         }
-
+        
         td {
-            padding: 12px 15px;
-            vertical-align: middle;
-            border-bottom: 1px solid var(--border-color);
+            padding: 2px 8px; 
+            border: none;      
+            line-height: 1.2; 
         }
+        
 
-        /* Column specific styles */
-        .vowel { font-weight: 500; min-width: 40px; }
-        .roman { font-style: normal; }
-        .devanagari { font-family: 'Arial Unicode MS', sans-serif; }
-        .translation { color: var(--primary-color); opacity: 0.9; }
-        .kashmiri { 
-            direction: rtl; 
-            font-family: 'Noto Nastaliq Urdu', serif; 
+        .kashmiri {
+            direction: rtl;
+            font-family: 'Noto Nastaliq Urdu', serif;
             font-size: 1.5rem;
             text-align: right;
+            line-height: 2.2;  
+            min-width: 120px;  
         }
+        
+       
+        .vowel {
+            font-weight: bold;
+            color: var(--primary-color);      
+            padding-right: 15px; 
+        }
+        .roman {
+          font-style: normal; 
+          padding-right:20px;
+          
+        }
+        .devanagari { font-family: 'Arial Unicode MS', sans-serif; }
+        .translation { color: var(--primary-color); opacity: 0.9; }
 
         sup { font-size: 0.7em; }
 
-        /* Remove border from last row */
-        tr:last-child td { border-bottom: none; }
+        tr:nth-child(even) {
+    background-color: #f9f2f9;
+}
+
 
         @media (max-width: 600px) {
             table { font-size: 1rem; }
@@ -223,18 +240,32 @@
                     <td class="kashmiri">مۄکھ</td>
                 </tr>
                 <tr>
-                    <td class="vowel">ⁱ/<sup>^</sup>i</td>
-                    <td class="roman">vär<sup>i</sup>/vär^i</td>
+                    <td class="vowel"><sup>i</sup>/^i</td></td>
+                    <td class="roman">vär<sup>i</sup><br>vär^i</td>
                     <td class="devanagari">वॉर्य</td>
                     <td class="translation">(turn)</td>
                     <td class="kashmiri">وٲرؠ</td>
                 </tr>
                 <tr>
                     <td class="vowel">ⁿ/^n/ñ</td>
-                    <td class="roman">daⁿ/da^n/dañ bohr<sup>i</sup></td>
-                    <td class="devanagari">दँ बुहर्य </td>
-                    <td class="translation">(paddy-rice sack)</td>
-                    <td class="kashmiri">داں بہُٕرؠ</td>
+                    <td class="roman">wu<sup>ni</sup><br>wu^n<sup>i</sup><br>wuñ<sup>i</sup> </td>
+                    <td class="devanagari"><br> वुँय </td>
+                    <td class="translation">(just now)</td>
+                    <td class="kashmiri">وُنؠ</td>
+                </tr>
+                 <tr>
+                    <td class="vowel">ṭ/t•/t.</td>
+                    <td class="roman">traṭh<br>trat•h<br>trat.h</td>
+                    <td class="devanagari"><br>त्रठ</td>
+                    <td class="translation">(cloudburst)</td>
+                    <td class="kashmiri">ترٚٹھ</td>
+                </tr>
+                 <tr>
+                    <td class="vowel">ḍ/d•/d.</td>
+                    <td class="roman">ḍanḍû<br>d•and•û<br>d.and.û</td>
+                    <td class="devanagari"><br> डण्डॖ</td>
+                    <td class="translation">(cane)</td>
+                    <td class="kashmiri">ڈنڈٕ<td>
                 </tr>
             </tbody>
         </table>
