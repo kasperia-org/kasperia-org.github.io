@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ks">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>KASPER Script Chart</title>
+    <style>
+        :root {
+            --primary-color: #8a2a8a; /* Matching the purple in the image */
+            --bg-color: #ffffff;
+            --border-color: #f0e0f0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--primary-color);
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 1.8rem;
+            margin: 0;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            margin: 5px 0;
+            font-style: italic;
+        }
+
+        .table-container {
+            width: 100%;
+            max-width: 900px;
+            overflow-x: auto; /* Ensures mobile readability */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1.2rem;
+        }
+
+        td {
+            padding: 12px 15px;
+            vertical-align: middle;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        /* Column specific styles */
+        .vowel { font-weight: 500; min-width: 40px; }
+        .roman { font-style: normal; }
+        .devanagari { font-family: 'Arial Unicode MS', sans-serif; }
+        .translation { color: var(--primary-color); opacity: 0.9; }
+        .kashmiri { 
+            direction: rtl; 
+            font-family: 'Noto Nastaliq Urdu', serif; 
+            font-size: 1.5rem;
+            text-align: right;
+        }
+
+        sup { font-size: 0.7em; }
+
+        /* Remove border from last row */
+        tr:last-child td { border-bottom: none; }
+
+        @media (max-width: 600px) {
+            table { font-size: 1rem; }
+            .kashmiri { font-size: 1.3rem; }
+            td { padding: 8px 5px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>KASPER</h1>
+        <p>(modified zaan script)</p>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <tbody>
+                <tr>
+                    <td class="vowel">a</td>
+                    <td class="roman">makh</td>
+                    <td class="devanagari">मख</td>
+                    <td class="translation">(axe)</td>
+                    <td class="kashmiri">مَکھ</td>
+                </tr>
+                <tr>
+                    <td class="vowel">à</td>
+                    <td class="roman">yàr</td>
+                    <td class="devanagari">यार</td>
+                    <td class="translation">(friend)</td>
+                    <td class="kashmiri">یار</td>
+                </tr>
+                <tr>
+                    <td class="vowel">â</td>
+                    <td class="roman">ânz</td>
+                    <td class="devanagari">अँज़</td>
+                    <td class="translation">(swan)</td>
+                    <td class="kashmiri">أنٛز</td>
+                </tr>
+                <tr>
+                    <td class="vowel">ä</td>
+                    <td class="roman">där</td>
+                    <td class="devanagari">दॉर</td>
+                    <td class="translation">(window)</td>
+                    <td class="kashmiri">دٲر</td>
+                </tr>
+                <tr>
+                    <td class="vowel">û</td>
+                    <td class="roman">bû</td>
+                    <td class="devanagari">बॖ</td>
+                    <td class="translation">(me)</td>
+                    <td class="kashmiri">بٕہ</td>
+                </tr>
+                <tr>
+                    <td class="vowel">ü</td>
+                    <td class="roman">tür</td>
+                    <td class="devanagari">तॗर</td>
+                    <td class="translation">(cold)</td>
+                    <td class="kashmiri"> ٟتر</td></td>
+                </tr>
+                <tr>
+                    <td class="vowel">í</td>
+                    <td class="roman">sír</td>
+                    <td class="devanagari">सिर</td>
+                    <td class="translation">(secret)</td>
+                    <td class="kashmiri">سِر</td>
+                </tr>
+                <tr>
+                    <td class="vowel">ì</td>
+                    <td class="roman">sìr</td>
+                    <td class="devanagari">सीर</td>
+                    <td class="translation">(brick)</td>
+                    <td class="kashmiri">سیٖر</td>
+                </tr>
+                <tr>
+                    <td class="vowel">ú</td>
+                    <td class="roman">kúl</td>
+                    <td class="devanagari">कुल</td>
+                    <td class="translation">(tree)</td>
+                    <td class="kashmiri">کُل</td>
+                </tr>
+                <tr>
+                    <td class="vowel">ù</td>
+                    <td class="roman">mùl</td>
+                    <td class="devanagari">मूल</td>
+                    <td class="translation">(root)</td>
+                    <td class="kashmiri">موٗل</td>
+                </tr>
+                <tr>
+                    <td class="vowel">é</td>
+                    <td class="roman">ré</td>
+                    <td class="devanagari">रॆ</td>
+                    <td class="translation">(ant)</td>
+                    <td class="kashmiri">رے</td>
+                </tr>
+                <tr>
+                    <td class="vowel">è</td>
+                    <td class="roman">dèg</td>
+                    <td class="devanagari">देग</td>
+                    <td class="translation">(cauldron)</td>
+                    <td class="kashmiri">دیگ</td>
+                </tr>
+                <tr>
+                    <td class="vowel">æ</td>
+                    <td class="roman">æb</td>
+                    <td class="devanagari">ऐब</td>
+                    <td class="translation">(fault)</td>
+                    <td class="kashmiri">عیب</td>
+                </tr>
+                <tr>
+                    <td class="vowel">ó</td>
+                    <td class="roman">dór</td>
+                    <td class="devanagari">दॊर</td>
+                    <td class="translation">(hard)</td>
+                    <td class="kashmiri">دوٚر</td>
+                </tr>
+                <tr>
+                    <td class="vowel">ò</td>
+                    <td class="roman">mòr</td>
+                    <td class="devanagari">मोर</td>
+                    <td class="translation">(peacock)</td>
+                    <td class="kashmiri">مور</td>
+                </tr>
+                <tr>
+                    <td class="vowel">au</td>
+                    <td class="roman">aushad</td>
+                    <td class="devanagari">औशद</td>
+                    <td class="translation">(medicine)</td>
+                    <td class="kashmiri">اَوشَد</td>
+                </tr>
+                <tr>
+                    <td class="vowel">ê</td>
+                    <td class="roman">rêth</td>
+                    <td class="devanagari">रयथ</td>
+                    <td class="translation">(month)</td>
+                    <td class="kashmiri">رؠتھ</td>
+                </tr>
+                <tr>
+                    <td class="vowel">ô</td>
+                    <td class="roman">môkh</td>
+                    <td class="devanagari">म्वख</td>
+                    <td class="translation">(face)</td>
+                    <td class="kashmiri">مۄکھ</td>
+                </tr>
+                <tr>
+                    <td class="vowel">ⁱ/<sup>^</sup>i</td>
+                    <td class="roman">värⁱ/vär<sup>^</sup>i</td>
+                    <td class="devanagari">वॉर्य</td>
+                    <td class="translation">(turn)</td>
+                    <td class="kashmiri">وٲرؠ</td>
+                </tr>
+                <tr>
+                    <td class="vowel">ⁿ/<sup>^</sup>n</td>
+                    <td class="roman">daⁿ bohrⁱ / da<sup>^</sup>n bohr<sup>^</sup>i</td>
+                    <td class="devanagari">दँ बुहर्य </td>
+                    <td class="translation">(paddy-rice sack)</td>
+                    <td class="kashmiri">دان بہُٕرؠ</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
