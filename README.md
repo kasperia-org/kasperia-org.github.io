@@ -1,6 +1,6 @@
 <p align="center">
-  <!-- https://github.com/user-attachments/assets/9b5f8037-0bf0-4220-b1fb-8a532b16de02  img-src:non-transparent -->
-<img width="500" height="500" alt="1000257236" src="https://github.com/user-attachments/assets/48dfb5a2-8524-4e04-bc02-f091e445d91e" />
+  <!-- https://github.com/user-attachments/assets/48dfb5a2-8524-4e04-bc02-f091e445d91e  img-src:transparent -->
+<img width="500" height="500" alt="1000257236" src="https://github.com/user-attachments/assets/9b5f8037-0bf0-4220-b1fb-8a532b16de02" />
 </p>
 <h1 align="center"> KASPERIA </h1>
 
